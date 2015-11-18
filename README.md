@@ -1,6 +1,6 @@
 # keymaster
 
-:key: *OpenSSL convenience scripts - Forked from cloudpipe/keymaster *
+:key: *OpenSSL convenience scripts - Forked from  ryanlovett/keymaster *
 
 This is a Docker container that can be used to generate a closed network of TLS credentials, suitable for use among sets of microservices that only need to (and only *should*) communicate among themselves.
 
