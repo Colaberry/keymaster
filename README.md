@@ -8,7 +8,7 @@ Note: See docker documentation on how to work with images at: https://docs.docke
 
 ## To Use
 
- 1. You'll need a directory to store output.
+ 1. You'll need a directory to store output. You can create this directory anywhere you want in your system. 
 
     ```bash
     mkdir certificates
@@ -17,7 +17,11 @@ Note: See docker documentation on how to work with images at: https://docs.docke
  1. Prepare the environment. The certificates output directory is mounted to the path `/certificates` within the container.
 
     ```bash
-    KEYMASTER="docker run --rm -v $(pwd)/certificates/:/certificates/ cloudpipe/keymaster"
+    KEYMASTER="docker run --rm -v $(pwd)/certificates/:/certificates/ colaberry/keymaster"
+    ```
+If you are not root user use sudo to run docker 
+    ```bash
+    KEYMASTER="sudo docker run --rm -v $(pwd)/certificates/:/certificates/ colaberry/keymaster"
     ```
 
  1. Generate a password and store it in a file called `password`.
