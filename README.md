@@ -4,6 +4,8 @@
 
 This is a Docker container that can be used to generate a closed network of TLS credentials, suitable for use among sets of microservices that only need to (and only *should*) communicate among themselves.
 
+Note: See docker documentation on how to work with images at: https://docs.docker.com/engine/userguide/dockerizing/
+
 ## To Use
 
  1. You'll need a directory to store output.
