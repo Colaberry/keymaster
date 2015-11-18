@@ -8,7 +8,7 @@ Note: See docker documentation on how to work with images at: https://docs.docke
 
 ## To Use
 
- 1. You'll need a directory to store output. You can create this directory anywhere you want in your system. 
+ 1. You'll need a directory to store output. 
 
     ```bash
     mkdir certificates
